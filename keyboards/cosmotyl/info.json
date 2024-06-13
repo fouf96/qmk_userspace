@@ -42,7 +42,7 @@
             }
         },
         "handedness": {
-            "matrix_pins": ["B4", "B5"]
+            "matrix_grid": ["B4", "B5"]
         }
     },
     "layouts": {
