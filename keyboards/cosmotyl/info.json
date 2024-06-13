@@ -72,7 +72,6 @@
             "val": 10
         },
         "hue_steps": 8,
-        "split_count": [18, 18],
         "timeout": 10000,
         "layout": [
             { "x": 0, "y": 19, "flags": 4, "matrix": [0, 0] },
