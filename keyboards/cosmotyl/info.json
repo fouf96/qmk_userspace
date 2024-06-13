@@ -12,6 +12,7 @@
         "mousekey": true,
         "nkro": true
     },
+    "tags": ["ortho", "split", "rgb", "oled"],
     "matrix_pins": {
         "cols": [
             "C2",
