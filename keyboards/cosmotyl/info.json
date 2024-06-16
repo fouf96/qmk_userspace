@@ -9,7 +9,8 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgb_matrix": true
     },
     "tags": ["ortho", "split", "rgb", "oled"],
     "matrix_pins": {
