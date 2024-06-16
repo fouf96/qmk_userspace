@@ -8,6 +8,8 @@
  *  These options are also useful to firmware size reduction.
  */
 
+#define EE_HANDS
+
 /* disable debug print */
 //#define NO_DEBUG
 
