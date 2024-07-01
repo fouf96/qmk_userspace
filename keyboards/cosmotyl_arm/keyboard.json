@@ -14,8 +14,8 @@
     },
     "tags": ["ortho", "split", "rgb", "oled"],
     "matrix_pins": {
-        "cols": ["F4", "F5", "F6", "B1", "B3"],
-        "rows": ["D4", "C6", "D7", "E6"]
+        "cols": ["GP29", "GP28", "GP27", "GP22", "GP20"],
+        "rows": ["GP4", "GP5", "GP6", "GP7"]
     },
     "processor": "RP2040",
     "url": "",
@@ -26,7 +26,7 @@
     },
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D2",
+        "soft_serial_pin": "GP1",
         "transport": {
             "protocol": "serial",
             "sync": {
@@ -37,8 +37,8 @@
         },
         "matrix_pins": {
             "right": {
-                "cols": ["B2", "B3", "B1", "F5", "F4"],
-                "rows": ["D4", "C6", "D7", "E6"]
+                "cols": ["GP23", "GP20", "GP22", "GP28", "GP29"],
+                "rows": ["GP4", "GP5", "GP6", "GP7"]
             }
         }
     },
@@ -92,8 +92,8 @@
         }
     },
     "ws2812": {
-        "driver": "bitbang",
-        "pin": "D3"
+        "driver": "vendor",
+        "pin": "GP0"
     },
     "rgb_matrix": {
         "driver": "ws2812",
